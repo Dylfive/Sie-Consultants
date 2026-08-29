@@ -93,19 +93,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* Partner Logos */}
-      <section className="bg-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-8">Trusted by industry leaders across Vancouver Island</p>
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-70 grayscale hover:grayscale-0 transition-all duration-300">
-            <img src={`${import.meta.env.BASE_URL}images/don-mann-logo2.jpg`} alt="Don Mann" className="h-12 object-contain" />
-            <img src={`${import.meta.env.BASE_URL}images/ALS_logo.jpg`} alt="ALS" className="h-12 object-contain" />
-            <img src={`${import.meta.env.BASE_URL}images/copcan-logo2.jpg`} alt="Copcan" className="h-12 object-contain" />
-            <img src={`${import.meta.env.BASE_URL}images/scansa-logo2.jpg`} alt="Scansa" className="h-12 object-contain" />
-            <img src={`${import.meta.env.BASE_URL}images/QM-Logo.jpg`} alt="QM" className="h-12 object-contain" />
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
